@@ -1,0 +1,9 @@
+name := "boinc"
+packages := "
+boinc-client
+boinc-manger
+"
+
+import '../sysext.just'
+
+all: default
